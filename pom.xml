@@ -9,11 +9,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.fishtech</groupId>
-	<artifactId>foodrest</artifactId>
+	<artifactId>foodrest-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>foodrest</name>
-	<description>Demo project for Spring Boot</description>
+	<name>foodrest-api</name>
+	<description>Api para restaurante</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -44,6 +44,11 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.fasterxml.jackson.dataformat</groupId>
+			<artifactId>jackson-dataformat-xml</artifactId>
 		</dependency>
 		
 		<!-- swagger -->

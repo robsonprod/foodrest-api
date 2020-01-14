@@ -8,8 +8,8 @@
    </module>  
    <module>  
       <web>  
-         <web-uri>foodrest.war</web-uri>  
-         <context-root>/foodrest/v1</context-root>  
+         <web-uri>foodrest-api.war</web-uri>  
+         <context-root>/foodrest-api/v1</context-root>  
       </web>  
    </module>
 </application> 
